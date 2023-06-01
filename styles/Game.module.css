@@ -1,0 +1,45 @@
+.game-bar {
+  margin-left: 2px;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.game-form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+.game-form select,
+.game-form input[type='number'],
+.game-form input[type='text'],
+.game-form input[type='datetime-local'],
+.game-form input[type='checkbox'] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-top: 4px;
+}
+
+.game-form button {
+  padding: 6px 12px;
+  background-image: linear-gradient(to right, #9f7aea, #2980b9);
+  color: white;
+  font-weight: bold;
+  border-radius: 9999px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.game-form button:hover {
+  background-image: linear-gradient(to right, #6b46c1, #1a5297);
+}
+
+.game-form button:focus {
+  ring: 2px solid #9f7aea;
+  ring-opacity: 0.5;
+}

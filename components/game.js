@@ -1,10 +1,5 @@
 //import styles from '../styles/game.css';
-import styled from 'styled-components';
-
-const Game = styled.div`
-  margin: 40px;
-  border: 5px black;
-`;
+import styles from '../styles/Game.module.css';
 
 export default function Game({}) {
   return (
